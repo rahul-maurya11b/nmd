@@ -39,14 +39,14 @@ img {
      grid-template-columns: auto auto;
     }
   }
-  @media  (max-width: 411px) {
+  @media  (max-width: 448px) {
     .org-1 {
       display: grid;
      grid-template-columns: auto auto;
     }
     img {
-        width: 8rem;
-        height: 8rem;
+        width: 9rem;
+        height: 9rem;
         border-radius: 100%;
       
     
