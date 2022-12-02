@@ -1,6 +1,8 @@
 /* ignore the CSS, it's mainly for looks */
 body{
-    background-color: rgba(5, 16, 35, 0.85);
+    margin: 0;
+    padding: 0;
+    background-color: rgba(22,34,57,0.85);
 }
 .org-1{
     border-radius: 100%;
