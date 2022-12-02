@@ -18,12 +18,19 @@ html.lb-disable-scrolling {
 }
 .speaker-img
 {
-  background-color: aliceblue;
-  height: 15rem;
-  width: 15rem;
+  
   border-radius: 100%;
-  text-align: center;
-  margin: auto;
+  align-items: center;
+  /* margin: auto; */
+}
+.speaker-img img
+{
+  
+  height: 20rem;
+  width: 20rem;
+  border-radius: 100%;
+  align-items: center;
+  /* margin: auto; */
 }
 .main-photo
 {
