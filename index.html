@@ -33,17 +33,18 @@
     <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
     <nav id="menu" class="main-nav" role="navigation">
       <ul class="main-menu">
-        <li><a href="#section1">Home</a></li>
-        <li><a href="#section2">About</a> </li>
+        
+        <li><a href="#section1">About</a> </li>
         <li><a href="#section4">Events</a></li>
-        <li><a href="organisers.html">Organisers</a></li>
-
+        <li><a href="#section5">Speaker</a></li>
+        <li><a href="/faculty.html" onclick="location.replace('/faculty.html'),'_top'">Faculty</a></li>
+        <li><a href="/organisers.html" onclick="location.replace('/organisers.html'),'_top'">Organisers</a></li>
       </ul>
     </nav>
   </header>
   <section class="section main-banner" id="top" data-section="section1">
       <video autoplay muted loop id="bg-video">
-          <source src="assets/images/course-video.mp4" type="video/mp4" />
+          <source src="assets/images/video.mp4" type="video/mp4" />
       </video>
 
       <div class="video-overlay header-text">
@@ -65,7 +66,7 @@
               <div class="content-hide">
                 <p>Sardar Vallabhbhai National Institute of Technology (SVNIT), Surat, perceives to be a globally accepted centre of excellence in technical education catalyzing absorption, innovation, diffusion and transfer of high technologies resulting in enhanced quality for all the stakeholders.</p>
                 
-                <div class="scroll-to-section"><a href="https://www.svnit.ac.in/">More Info.</a></div>
+                <div class><a href="https://www.svnit.ac.in//" onclick="location.replace('https://www.svnit.ac.in/'),'_top'">More info</a></div>
             </div>
             </div>
           </div>
@@ -79,7 +80,7 @@
               <div class="content-hide">
                 <p>To be a model for excellence in educational research in Mathematics and Humanities in order to meet the changing needs of society.</p>
                 
-                <div class="scroll-to-section"><a href="/">Details</a></div>
+                <div class="scroll-to-section"><a href="https://www.svnit.ac.in/web/department/maths/newsletter_maths.php" onclick="location.replace('https://www.svnit.ac.in/web/department/maths/newsletter_maths.php'),'_top'">More Info</a></div>
             </div>
             </div>
           </div>
@@ -93,7 +94,7 @@
               <div class="content-hide">
                 <p>To become an exemplary Centre of Excellence for research and training in the Mathematical Sciences and Humanities by promoting learning, growth and development of young minds and finding solutions to scientific, technological and real-life problems.</p>
               
-                <div class="scroll-to-section"><a href="/">Read More</a></div>
+                <div class="scroll-to-section"><a href="https://www.svnit.ac.in/web/department/maths/newsletter_maths.php" onclick="location.replace('https://www.svnit.ac.in/web/department/maths/newsletter_maths.php'),'_top'">Details</a></div>
             </div>
             </div>
           </div>
@@ -181,7 +182,9 @@
             <img src="assets/images/courses-01.jpg" alt="Course #1">
             <div class="down-content">
               <h4>Article Writing</h4>
-              <p>Writing is a beautiful form of expression for our subject knowledge. However, it claimed that math students are not adept writers. Let's refute this claim by putting our mathematical expertise on paper in the form of a numerically dense piece.Show your writing prowess and demonstrate to the public on National Mathematics Day how the world can do great things with the aid of mathematics.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots1">...</span><span id="more1">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+
+              <p class="read-more" onclick="myFunction1()" id="myBtn1">Read more</p>
              
               <div class="text-button-free">
                
@@ -193,11 +196,14 @@
             <div class="down-content">
               <h4>Risk, Riddle, Rule (RRR)</h4>
               <p>RRR i.e
-                Risk represents chances, odds and possibility i.e interesting problem based on probability.
+                Risk represents chances, odds and possibility <span id="dots2">...</span><span id="more2"> on probability.
                 Riddle are the puzzling, mind boggling questions to help you use every nerve of your brain.
                 Rule represents the interesting Mathematical Theorems
-                </p>
+              </span></p>
             
+              
+              <p class="read-more"onclick="myFunction2()" id="myBtn2">Read more</p>
+             
               
             </div>
           </div>
@@ -221,7 +227,11 @@
             <img src="assets/images/courses-01.jpg" alt="Course #1">
             <div class="down-content">
               <h4>Patterns using Graphs </h4>
-              <p>"Think you're good at 3-D, let's see your connection with Graphs and equations. Breaking Patterns into sines and tangents, that's what the era's into. Here we bring you that chance, sharpen your math skills, and see where you stand, at, "Flowing in x-y", at NMD'22."</p>
+              <p>"Think you're good at 3-D, let's see your connection with Graphs and equations.
+                Breaking Patterns into sines and tangents, that's what the era's into. Here we bring you that chance, sharpen your math skills, and see where you stand, at, "Flowing in x-y", at NMD'22."</p>
+
+
+                
             </div>
           </div>
           <div class="item">
@@ -294,10 +304,6 @@
   
         
    
-                    
-         
-  
-        </div>
         
         
 
@@ -325,6 +331,8 @@
     <script src="assets/js/video.js"></script>
     <script src="assets/js/slick-slider.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script src="script.js"></script>
+    
     <script>
         //according to loftblog tut
         $('.nav li:first').addClass('active');

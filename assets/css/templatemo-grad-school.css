@@ -36,6 +36,18 @@ p {
     line-height: 22px;
 }
 
+#more1 {display: none;}
+
+#more2 {display: none;}
+
+.read-more
+{
+ text-decoration: ;
+}
+:hover
+{
+  cursor: pointer;
+}
 
 .section-heading {
     text-align: center;
@@ -157,6 +169,7 @@ a.menu-link { display: none; }
 
   .main-menu {
       padding-right: 30px!important;
+      z-index: 10000;
   }
 
   .main-menu li {
@@ -168,7 +181,7 @@ a.menu-link { display: none; }
     background-color: rgba(22,34,57,0.95);
     height: 80px;
     position: fixed;
-    z-index: 12;
+    z-index: 1000;
     width: 100%;
     top: 0;
 }
@@ -792,7 +805,6 @@ section.coming-soon form button {
 
 
 
-/* Courses */
 
 section.courses {
     background-image: url(../images/choosing-bg.jpg);
@@ -813,8 +825,11 @@ section.courses .item .down-content {
     background-color: #fff;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
+    
 }
-
+.read-more{
+  text-decoration: underline;
+}
 section.courses .item .down-content h4 {
     font-size: 16px;
     text-transform: uppercase;
