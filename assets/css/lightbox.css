@@ -633,7 +633,7 @@ section.why-us {
 /* Coming Soon */
 
 section.coming-soon {
-    background-image: url("/dept.bmp");
+  background-image: url("../../assets/images/dept.bmp");
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #172238;
